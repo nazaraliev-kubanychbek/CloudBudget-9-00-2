@@ -1,0 +1,41 @@
+.hero {
+  background: url("../img/hero/Bg.png") top left /100% 100% no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 40px;
+
+  &__title {
+    @include font(72px, 86px, bold);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__text {
+    @include font(24px, 150%, 500);
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__btn {
+    @include font(14px, 17px, normal);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 17px 52px;
+    background-color: transparent;
+    transition: .6s;
+    cursor: pointer;
+
+    &:hover {
+      color: $primered;
+      background-color: #FFFFFF;
+    }
+  }
+
+
+}

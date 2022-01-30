@@ -1,0 +1,39 @@
+.technology {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 120px;
+  justify-content: center;
+
+  &__title {
+    @include font(36px, 43px, 600);
+    text-align: center;
+  }
+
+  &__item {
+    text-align: center;
+    position: relative;
+    width: 200px;
+
+    &-num {
+      @include font(100px, 120px, bold);
+      color: rgba(16, 16, 16, 0.08);
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, -50%);
+    }
+
+    &-title {
+      @include font(18px, 22px, bold);
+      color: $primeblack;
+      text-align: center;
+    }
+
+    &-text {
+      @include font(12px, 14px, normal);
+      text-align: center;
+    }
+  }
+
+}
