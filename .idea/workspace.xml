@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8f6ca3f-968c-4618-8c2b-151afb884a52" name="Default Changelist" comment="" />
+    <list default="true" id="d8f6ca3f-968c-4618-8c2b-151afb884a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/footer/feather-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/footer/feather-linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/footer/feather-twitter.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="23lNmkSwPHljZdGBZacGLBREyht" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,7 +74,7 @@
       <workItem from="1642824746624" duration="6549000" />
       <workItem from="1642907429841" duration="9125000" />
       <workItem from="1643426573295" duration="9075000" />
-      <workItem from="1643512480456" duration="3209000" />
+      <workItem from="1643512480456" duration="4129000" />
     </task>
     <servers />
   </component>
